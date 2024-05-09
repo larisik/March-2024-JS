@@ -159,52 +159,71 @@ console.log(`Пароль користувача ${users[9]['name']}: ${users[9]
 //// Варіант, коли в вас буде одновимірний масив з 21 значенням вичключаємо одразу
 ////
 
-let temperatures = [
+let temp = [
     {
+        id: 1,
         day: 'monday',
-        morningTemp: 9,
-        dayTemp: 15,
-        nightTemp: 12
+        temperature: {
+            morningTemp: 9,
+            dayTemp: 15,
+            nightTemp: 12
+        }
     },
     {
+        id: 2,
         day: 'tuesday',
-        morningTemp: 7,
-        dayTemp: 14,
-        nightTemp: 11
+        temperature: {
+            morningTemp: 7,
+            dayTemp: 14,
+            nightTemp: 11
+        }
     },
     {
+        id: 3,
         day: 'wednesday',
-        morningTemp: 12,
-        dayTemp: 25,
-        nightTemp: 20
+        temperature: {
+            morningTemp: 12,
+            dayTemp: 25,
+            nightTemp: 20
+        }
     },
     {
+        id: 4,
         day: 'thursday',
-        morningTemp: 10,
-        dayTemp: 20,
-        nightTemp: 17
+        temperature: {
+            morningTemp: 10,
+            dayTemp: 20,
+            nightTemp: 17
+        }
     },
     {
+        id: 5,
         day: 'friday',
-        morningTemp: 20,
-        dayTemp: 27,
-        nightTemp: 19
+        temperature: {
+            morningTemp: 20,
+            dayTemp: 27,
+            nightTemp: 19
+        }
     },
     {
+        id: 6,
         day: 'saturday',
-        morningTemp: 21,
-        dayTemp: 28,
-        nightTemp: 22
+        temperature: {
+            morningTemp: 21,
+            dayTemp: 28,
+            nightTemp: 22
+        }
     },
     {
+        id: 7,
         day: 'sunday',
-        morningTemp: 15,
-        dayTemp: 18,
-        nightTemp: 11
+        temperature: {
+            morningTemp: 15,
+            dayTemp: 18,
+            nightTemp: 11
+        }
     },
 ];
-
-
 
 
 //// Логічні розгалуження:
