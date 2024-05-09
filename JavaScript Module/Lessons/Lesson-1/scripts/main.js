@@ -1,6 +1,5 @@
 'use strict';
 
-
 let b = `cde`;
 const d = 123;
 const price = 123;
