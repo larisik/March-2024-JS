@@ -233,7 +233,7 @@ let temp = [
 
 let x = 1;
 
-if (x != 0) {
+if (x !== 0) {
     console.log('Вірно')
 } else {
     console.log('Невірно')
@@ -244,7 +244,7 @@ if (x != 0) {
 
 let time = 17;
 
-if (time <= 15) {
+if (time > 0 && time <= 15)  {
     console.log('First quarter of an hour');
 } else if (time > 15 && time <= 30) {
     console.log('Second quarter of an hour');
@@ -260,7 +260,7 @@ if (time <= 15) {
 
 let day = 25;
 
-if (day <= 10) {
+if (day > 0 && day <= 10) {
     console.log('First');
 } else if (day > 10 && day <= 20) {
     console.log('Second');
@@ -313,7 +313,7 @@ if (num1 > num2) {
     console.log(`${num1} is bigger than ${num2}`)
 } else if (num1 < num2) {
     console.log(`${num2} is bigger than ${num1}`);
-} else if (num1 = num2) {
+} else if (num1 === num2) {
     console.log('both numbers are same');
 }
 
