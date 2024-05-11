@@ -68,10 +68,10 @@ document.write(`<p class="task">Task #5</p>`)
 let listOfItems = ['html', 'css', 'javascript', 'mysql', 'mongodb', 'react', 'angular', 'node.js'];
 
 document.write('<ul>');
-for (const item in listOfItems) {
+for (const item of listOfItems) {
     document.write(`
                 <li style="text-transform: uppercase;">
-                    ${listOfItems[item]}
+                    ${item}
                 </li>`);
 
 }
