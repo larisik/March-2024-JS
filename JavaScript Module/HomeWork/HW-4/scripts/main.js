@@ -179,6 +179,10 @@ function exchange(sumUAH,currencyValues,exchangeCurrency){
         if(currency.currency === exchangeCurrency){
             exchangeRate = currency.value
         }
+
+    }
+    if (!exchangeRate) {
+        return `Currency ${exchangeCurrency} not found`;
     }
 
     return sumUAH/exchangeRate
